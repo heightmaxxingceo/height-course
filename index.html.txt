@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximize Your Height Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .course-info {
+            text-align: center;
+        }
+        .course-info h2 {
+            margin: 0 0 10px;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #e74c3c;
+            margin: 20px 0;
+        }
+        .original-price {
+            text-decoration: line-through;
+            color: #95a5a6;
+            margin-right: 10px;
+        }
+        .discount-price {
+            color: #27ae60;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta button {
+            background-color: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta button:hover {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Maximize Your Height</h1>
+        </div>
+        <div class="content">
+            <div class="course-info">
+                <h2>Unlock Your Full Height Potential</h2>
+                <p>Learn the secrets to maximizing your height with our comprehensive course. This course is designed to provide you with the tools and knowledge to grow taller and improve your overall health and posture.</p>
+                <div class="price">
+                    <span class="original-price">€14</span>
+                    <span class="discount-price">€5.60</span>
+                </div>
+            </div>
+            <div class="cta">
+                <button onclick="window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SXS8C6ETXCM3L'">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
